@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 70px;
+}
+
+.navlinks ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navlinks li{
+   
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin: 0px 20px;
+   
+    
+    
+}
+.navlinks a:hover{
+    border-bottom: 3px solid red;
+    
+  
+    
+    
+}
+.btn button{
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    
+}
