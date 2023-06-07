@@ -1,20 +1,21 @@
 
-// import './App.css';
-// import NavBar from './components/navbar'
+import './App.css';
+import NavBar from './components/navbar'
 
-// import Home from './components/Home';
+import Home from './components/Home';
 
-import Navbar1 from "./foody/navbar1";
-import Secondpage from "./foody/homepage1";
+// import Navbar1 from "./foody/navbar1";
+// import Secondpage from "./foody/homepage1";
 
 function App() {
   return (
     <div className="App">
       
-     {/* <NavBar />
-     <Home /> */}
-     <Navbar1 />
-     <Secondpage />
+     <NavBar />
+     <Home /> 
+     {/* <Navbar1 /> */}
+     {/* <Secondpage /> */}
+     
     </div>
   );
 }

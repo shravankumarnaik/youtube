@@ -18,7 +18,7 @@ function NavBar(){
             <div className="userOptions">
                 <img  width={30} src={Video} alt="" />
                 <img  width={40} src={Bel} alt="" />
-                <h4>S</h4>
+                <h4 >S</h4>
             </div>
         </div>
     )
