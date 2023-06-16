@@ -5,6 +5,7 @@ import Bel from '../images/alarm_alert_attention_bell_clock_notification_ring_ic
 
 
 import '../styles/navbar.css'
+import { Link } from 'react-router-dom'
 
 function NavBar(){
     return (
@@ -15,10 +16,15 @@ function NavBar(){
             <div className="searchBar">
                 <input  type="text" placeholder='search'/>
             </div>
+            
             <div className="userOptions">
-                <img  width={30} src={Video} alt="" />
-                <img  width={40} src={Bel} alt="" />
-                <h4 >S</h4>
+                <div className="links">
+                    <Link to="/">Home</Link>
+                    <Link to="/add-video">Addvideo</Link>
+                </div>
+                {/* <img  width={30} src={Video} alt="" /> */}
+                 {/* <img  width={40} src={Bel} alt="" />  */}
+                {/* <h4 >S</h4> */}
             </div>
         </div>
     )

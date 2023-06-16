@@ -38,3 +38,34 @@
     cursor: pointer;
 }
 
+/* //shorts video styling */
+.shortvideo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.shortdetails{
+    width: 250px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.reels{
+    margin: 10px 14px;
+    
+    width: 14%;
+}
+.reels h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.reels p {
+    color: #606060;
+    margin: 0px;
+    
+}
+.reels img{
+    /* width: 100px; */
+    height: 200px;
+    border-radius: 10px;
+    
+}
